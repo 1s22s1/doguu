@@ -1,3 +1,8 @@
 module Doguu
   VERSION: String
+
+  def self.arithmetic_mean: (Array[Integer]) -> Integer
+  def self.geometric_mean: (Array[Integer]) -> Integer
+  def self.harmonic_mean: (Array[Integer]) -> (Integer | Float)
+  def self.variance: (Array[Integer]) -> Integer
 end
