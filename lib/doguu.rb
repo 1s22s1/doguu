@@ -5,7 +5,15 @@ require_relative 'doguu/version'
 module Doguu
   class << self
     def arithmetic_mean(x_n)
-      (x_n.sum / x_n.size.to_f).round(2)
+      answer = x_n.sum / x_n.size.to_f
+
+      answer.round(2)
+    end
+
+    def geometric_mean(x_n)
+      answer = x_n.inject(:*)**(1 / x_n.size.to_f)
+
+      answer.round(2)
     end
   end
 end

@@ -16,4 +16,12 @@ RSpec.describe Doguu do
       it { is_expected.to eq 1.67 }
     end
   end
+
+  describe '.geometric_mean' do
+    let(:x_n) { [1.1, 1.05, 1.03] }
+
+    subject { Doguu.geometric_mean(x_n) }
+
+    it { is_expected.to eq 1.06 }
+  end
 end
