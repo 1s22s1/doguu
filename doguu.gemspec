@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ['arino']
   spec.email = ['arino@example.com']
 
-  spec.summary = '土偶は、平均と分散を計算するメソッドを提供します。'
-  spec.description = '土偶は、平均と分散を計算するメソッドを提供します。'
+  spec.summary = '土偶は、算術平均、幾何平均、調和平均と分散を計算するメソッドを提供します。'
+  spec.description = '土偶は、算術平均、幾何平均、調和平均と分散を計算するメソッドを提供します。'
   spec.homepage = 'https://github.com/1s22s1/doguu'
   spec.required_ruby_version = '>= 2.6.0'
 

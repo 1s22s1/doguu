@@ -32,4 +32,12 @@ RSpec.describe Doguu do
 
     it { is_expected.to eq 24 }
   end
+
+  describe '.variance' do
+    let(:x_n) { [5, 6, 7, 7, 10] }
+
+    subject { described_class.variance(x_n) }
+
+    it { is_expected.to eq 2.8 }
+  end
 end

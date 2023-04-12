@@ -22,5 +22,12 @@ module Doguu
 
       answer.round(2)
     end
+
+    def variance(x_n)
+      mean = arithmetic_mean(x_n)
+      answer = x_n.map { |n| (n - mean).abs**2 }.sum / x_n.size.to_f
+
+      answer.round(2)
+    end
   end
 end
