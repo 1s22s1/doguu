@@ -15,5 +15,12 @@ module Doguu
 
       answer.round(2)
     end
+
+    def harmonic_mean(x_n)
+      sum = x_n.map { |x| 1 / x.to_f }.sum
+      answer = x_n.size / sum
+
+      answer.round(2)
+    end
   end
 end
