@@ -1,16 +1,22 @@
-# 土偶
+# Doguu
 
-土偶は、算術平均、幾何平均、調和平均と分散を計算するメソッドを提供します。定義は東京大学出版会の統計学入門を参考にしています。
+Doguu introduce arithmetic mean, geometric mean, harmonic mean and dispersion. Reference is https://www.utp.or.jp/book/b300857.html .
 
-## インストール方法
+## How to intall
 
-シェル上で、次のコマンドを実行します。
+Run below command on shell.
 
 ```console
 gem install doguu
 ```
 
-## 使い方
+## How to run test
+
+```console
+bundle exec rake spec
+```
+
+## How to use
 
 ```ruby
 require 'doguu'

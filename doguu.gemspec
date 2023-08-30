@@ -5,11 +5,11 @@ require_relative 'lib/doguu/version'
 Gem::Specification.new do |spec|
   spec.name = 'doguu'
   spec.version = Doguu::VERSION
-  spec.authors = ['arino']
-  spec.email = ['arino@example.com']
+  spec.authors = ['1s22s1']
+  spec.email = ['1s22s1@example.com']
 
-  spec.summary = '土偶は、算術平均、幾何平均、調和平均と分散を計算するメソッドを提供します。'
-  spec.description = '土偶は、算術平均、幾何平均、調和平均と分散を計算するメソッドを提供します。'
+  spec.summary = 'Doguu introduce arithmetic mean, geometric mean, harmonic mean and dispersion. '
+  spec.description = 'Doguu introduce arithmetic mean, geometric mean, harmonic mean and dispersion. '
   spec.homepage = 'https://github.com/1s22s1/doguu'
   spec.required_ruby_version = '>= 2.6.0'
 

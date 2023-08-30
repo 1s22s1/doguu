@@ -1,3 +1,5 @@
+# 我が命を長門の島の小松原幾代を経てか神さびわたる (『万葉集巻15 3621』 遣新羅使)
+
 # frozen_string_literal: true
 
 require_relative 'doguu/version'

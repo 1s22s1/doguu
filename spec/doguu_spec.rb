@@ -4,13 +4,13 @@ RSpec.describe Doguu do
   describe '.arithmetic_mean' do
     subject { described_class.arithmetic_mean(x_n) }
 
-    context '合計値がデータの大きさで割り切れる場合' do
+    context 'when remainder is 0' do
       let(:x_n) { [1, 2, 3] }
 
       it { is_expected.to eq 2 }
     end
 
-    context '合計値がデータの大きさで割り切れない場合' do
+    context 'when remainder is not 0' do
       let(:x_n) { [1, 2, 2] }
 
       it { is_expected.to eq 1.67 }
